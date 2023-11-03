@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test rails engine</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+  <%= stylesheet_link_tag    "test_rails_engine/application", media: "all" %>
+  <%= javascript_include_tag "test_rails_engine/application", "data-turoblinks-track": "reload", type: "module" %>
+</head>
+<body>
+<%= yield %>
+</body>
+</html>
